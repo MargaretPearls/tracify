@@ -5,9 +5,16 @@ export default {
   theme: {
     extend: {
       colors: {
+        // blue: {
+        //   250: '#00AFEF'
+        // },
         blue: {
-          150: "#00AFEF",
+          350: "#007099",
         },
+        teal: {
+          150: '#00afef'
+        },
+        
         cyan: {
           150: "#1D8399",
         },
