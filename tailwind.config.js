@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  prefix: "tw-",
+  prefix: "",
   content: [
     "./*.{html,js}",
     "./node_modules/flowbite/**/*.js"
