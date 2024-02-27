@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  prefix: "",
+  prefix: "tw-",
   content: [
     "./*.{html,js}",
     "./node_modules/flowbite/**/*.js"
@@ -17,7 +17,9 @@ export default {
         teal: {
           150: '#00afef'
         },
-        
+        sky:{
+          100: 'DCEFFC'
+        },
         cyan: {
           150: "#1D8399",
         },
