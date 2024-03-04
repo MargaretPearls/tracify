@@ -17,7 +17,9 @@ export default {
         teal: {
           150: '#00afef'
         },
-        
+        sky:{
+          100: 'DCEFFC'
+        },
         cyan: {
           150: "#1D8399",
         },
