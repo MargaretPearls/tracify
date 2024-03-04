@@ -4,10 +4,55 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
-    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Tracify Website</title>
 </head>
+  <body>
+    <section
+      class="bg-cover bg-center bg-no-repeat"
+      style="background-image: url('img/background.svg')"
+    >
+      <div
+        class="inset-0 h-full w-full px-28"
+        style="background-color: rgba(0, 0, 0, 0.6)"
+      >
+        <nav
+          class="py-3 flex items-center justify-between border-b-2 border-gray-600"
+        >
+          <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+              <img src="/img/Logo.svg" alt="Logo" class="h-18 w-18 mr-2" />
+            </div>
+
+            <ul class="flex items-center space-x-4">
+              <li>
+                <a href="#" class="text-white hover:text-gray-300">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-300">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-300">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-300"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white hover:text-gray-300">FAQ</a>
+              </li>
+            </ul>
+            <div class="flex items-center space-x-4">
+              <button
+                class="text-sky-500 bg-white px-4 py-2 hover:bg-sky-500 hover:text-white rounded-lg"
+              >
+                Login
+=======
     <body>
     <section class="bg-cover bg-center bg-no-repeat"
          style="background-image: url('img/background.svg');"> 
@@ -34,22 +79,159 @@
                 class="bg-sky-500 text-white px-4 py-2 hover:bg-white hover:text-sky-500 rounded-md"
               >Sign up
               </button>
-                </div>
-              </div>
-            </nav>
-            <div class="flex justify-between py-28">
-                  <div class="p-4 -rounded-lg w-1/2">
-                    <h2 class="text-7xl text-white font-bold ont-poppins mt-8 px-16">Empowering Efficient Logistics</h2>
-                    <p class="text-base text-white mt-10 font-poppins px-16 leading-8"> TraciFy is helping shippers increase on-time deliveries while improving fleet performance and saving cost for carriers using our powerful AI based technology that brings together everything required to run fleet business. </p>
-                    <button
-                class="text-sky-500 bg-white px-5 py-3 hover:bg-sky-500 hover:text-white rounded-lg ml-16 mt-7"
-              >Get Started
+              <button
+                class="bg-sky-500 text-white px-4 py-2 hover:bg-white hover:text-sky-500 rounded-md"
+              >
+                Sign up
               </button>
             </div>
-            </div>
+          </div>
+        </nav>
+        <div class="flex justify-between py-28">
+          <div class="p-4 -rounded-lg w-1/2">
+            <h2 class="text-7xl text-white font-bold ont-poppins mt-8">
+              Empowering Efficient Logistics
+            </h2>
+            <p class="text-base text-white mt-10 font-poppins leading-8">
+              TraciFy is helping shippers increase on-time deliveries while
+              improving fleet performance and saving cost for carriers using our
+              powerful AI based technology that brings together everything
+              required to run fleet business.
+            </p>
+            <button
+              class="text-sky-500 bg-white px-5 py-3 hover:bg-sky-500 hover:text-white rounded-lg mt-7"
+            >
+              Get Started
+            </button>
+          </div>
         </div>
+      </div>
     </section>
 
+    <section class="bg-blue-350 px-28">
+      <button
+        class="bg-sky-500 text-white px-4 py-2 hover:bg-white hover:text-sky-500 rounded-3xl mt-12"
+      >
+        pricing
+      </button>
+      <div class="items-center justify-center">
+        <h3 class="text-4xl text-white font-bold mt-4">
+          Flexible pricing plan for your business.
+        </h3>
+        <p class="text-base leading-6 text-white mt-4">
+          No commitment, no hidden charges and no complications; simple and
+          transparent pricing. Your <br />
+          business is unique and our pricing structure is flexible. Let's get
+          started
+        </p>
+      </div>
+      <div class="flex flex-row justify-between items-center mt-6 mb-6">
+        <div class="bg-white shadow-lg rounded-lg">
+          <div class="px-20 py-4 items-center">
+            <button
+              class="mt-6 ml-12 bg-blue-50 hover:bg-blue-100 text-sky-500 font-bold py-2 px-4 rounded-full"
+            >
+              Pricing
+            </button>
+            <h2 class="text-2xl font-semibold text-sky-500 mt-8 ml-10">
+              Trial Plan
+            </h2>
+            <h4 class="text-2xl font-semibold my-4 ml-10">₦0/mth</h4>
+            <h5 class="mt-2 text-xl font-bold text-gray-500 ml-8">
+              Billed annually
+            </h5>
+            <div class="flex flex-col text-gray-500 ml-1 mt-4">
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed 1 driver.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed 20 Orders.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">NO SMS Features</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">With Push Broadcast</span>
+              </label>
+            </div>
+
+            <button
+              class="mt-6 bg-sky-500 hover:bg-white text-white hover:text-sky-500 py-2 px-12 rounded-lg"
+            >
+              Request a Demo
+            </button>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white shadow-lg rounded-lg ml-14 m-4">
+          <div class="px-20 py-4 items-center">
+            <button
+              class="mt-6 ml-12 bg-blue-50 hover:bg-blue-100 text-sky-500 font-bold py-2 px-4 rounded-full"
+            >
+              Pricing
+            </button>
+            <h2 class="text-xl font-semibold text-sky-500 mt-8 ml-8">
+              Small Business Plan
+            </h2>
+            <h4 class="text-2xl font-semibold my-4 ml-10">₦199k/mth</h4>
+            <h5 class="mt-2 text-xl font-bold text-gray-500 ml-8">
+              Billed annually
+            </h5>
+            <div class="flex flex-col text-gray-500 ml-1 mt-4">
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed 5 driver.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed unlimited Orders.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">NO SMS Features</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">With Push Broadcast</span>
+              </label>
+            </div>
+=======
     <!-- This section is only to be worked on by AbdulBaasit -->
     <section class="w-full px-28 py-20 flex justify-center font-Manrope mb-20">
       <div class="w-full flex justify-center items-center">
@@ -327,10 +509,196 @@
             </div>
     </section>
 
+            <button
+              class="mt-6 bg-sky-500 hover:bg-white text-white hover:text-sky-500 py-2 px-12 rounded-lg"
+            >
+              Request a Demo
+            </button>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white shadow-lg rounded-lg">
+          <div class="px-20 py-4 items-center">
+            <button
+              class="mt-6 ml-12 bg-blue-50 hover:bg-blue-100 text-sky-500 font-bold py-2 px-4 rounded-full"
+            >
+              Pricing
+            </button>
+            <h2 class="text-2xl font-semibold text-sky-500 mt-8 ml-10">
+              Enterprise Plan
+            </h2>
+            <h4 class="text-2xl font-semibold my-4 ml-10">₦300k/mth</h4>
+            <h5 class="mt-2 text-xl font-bold text-gray-500 ml-8">
+              Billed annually
+            </h5>
+            <div class="flex flex-col text-gray-500 ml-1 mt-4">
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed unlimited driver.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">Allowed 500 Orders.</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">NO SMS Features</span>
+              </label>
+              <label class="inline-flex items-center mt-1">
+                <input
+                  type="radio"
+                  class="form-radio h-4 w-4 text-sky-500"
+                  checked
+                />
+                <span class="ml-1">With Push Broadcast</span>
+              </label>
+            </div>
+
+            <button
+              class="mt-6 bg-sky-500 hover:bg-white text-white hover:text-sky-500 py-2 px-12 rounded-lg"
+            >
+              Request a Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white px-28">
+      <div class="container mx-auto text-center mt-10">
+        <button
+          class="mt-6 bg-blue-50 hover:bg-white text-sky-500 font-bold py-2 px-4 rounded-full"
+        >
+          OUR CLIENTS
+        </button>
+        <h2 class="text-4xl font-bold text-gray-800 m-4">
+          Trusted by the top companies in this industry
+        </h2>
+        <p class="text-gray-600 mb-8">
+          LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt.
+        </p>
+      </div>
+
+      <div class="container mx-auto mt-12 flex justify-center flex-wrap">
+        <div
+          class="max-w-sm mx-4 bg-gray-100 shadow-lg rounded-lg overflow-hidden flex justify-center items-center"
+        >
+          <img src="/img/jiggle.svg" alt="Image 1" class="w-52 h-32" />
+        </div>
+
+        <div
+          class="max-w-sm mx-4 bg-gray-100 shadow-lg rounded-lg overflow-hidden flex justify-center items-center"
+        >
+          <img src="/img/symtric.svg" alt="Image 2" class="w-52 h-32" />
+        </div>
+
+        <div
+          class="max-w-sm mx-4 bg-gray-100 shadow-lg rounded-lg overflow-hidden flex justify-center items-center"
+        >
+          <img src="/img/resecurb.svg" alt="Image 3" class="w-52 h-32" />
+        </div>
+
+        <div
+          class="max-w-sm mx-4 bg-gray-100 shadow-lg rounded-lg overflow-hidden flex justify-center items-center"
+        >
+          <img src="/img/wishelp.svg" alt="Image 4" class="w-52 h-32" />
+        </div>
+      </div>
+    </section>
+
+   <section class="bg-no-repeat bg-cover bg-center" style="background-image: url('/img/truck_bg.svg'); height: 100vh;">
+    <div
+        class="inset-0 h-full w-full px-28"
+        style="background-color: rgba(0, 0, 0, 0.6)"
+      >
+      <div class="container mx-auto py-20">
+          <div class="max-w-4xl mx-auto bg-white p-16 rounded-lg shadow-lg md:float-right mt-10 md:mr-20"> <!-- Adjusted margin for form -->
+          <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact Us</h2>
+          <p class="text-base"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Nunc odio in et, lectus sit lorem id integer.</p>
+          <form action="#" method="POST" class="grid grid-cols-1 gap-6 mt-0">
+              <div>
+              <input type="text" id="name" name="name" placeholder="Full Name" class="w-full px-4 py-2 mt-4 mb-1 border border-blue-50 rounded-md focus:outline-none focus:border-blue-50 bg-blue-50">
+              </div>
+              <div>
+              <input type="email" id="email" name="email" placeholder="Email Address" class="w-full px-4 py-2 mt-1  mb-1 border border-blue-50 rounded-md focus:outline-none focus:border-blue-50 bg-blue-50">
+              </div>
+              <div>
+              <textarea id="message" name="message" rows="4" placeholder="Message" class="w-full px-4 py-2 mt-1 mb-1 border border-blue-50 rounded-md focus:outline-none focus:border-blue-50 bg-blue-50"></textarea>
+              </div>
+              <div>
+              <button type="submit" class="w-full bg-sky-500 text-white py-2 px-4 rounded-md hover:bg-white hover:text-sky-500 focus:outline-none">Send Message</button>
+              </div>
+          </form>
+          </div>
+      </div>
+    </div>
+    </section>
+
+        <section class="bg-white py-24">
+        </section>  
+        <footer class="bg-blue-350 py-20 px-28">
+            <div class="container mx-auto flex justify-between px-4">
+            <div class="w-1/2">
+            <img src="/img/traci_Fy.svg" alt="" class="mt-2">
+            <div class="flex flex-row mt-4">
+            <p class="text-white mr-4">Home</p>
+            <p class="text-white mr-4">About us</p>
+            <p class="text-white mr-4">Services</p>
+            <p class="text-white mr-4">Contact Us</p>
+            <p class="text-white">FAQ</p>
+            </div>
+            </div>
+            <div class="w-1/2">
+            <h3 class="text-white text-2xl font-bold mb-1">Newsletter</h3>
+            <div class=" flex flex-row">
+             <input type="email" id="email" name="email" placeholder="johndoe@shuffle.dev" class="w-full px-2 py-1 mt-1  mb-1 border border-blue-50 rounded-md focus:outline-none focus:border-blue-50 bg-blue-50">
+             <div>
+             <button type="submit" class="w-full bg-sky-500 text-white py-2 px-4 rounded-md hover:bg-white hover:text-sky-500 focus:outline-none">Subscribe</button>
+             </div>
+             </div>
+            </div>
+            </div>
+            </footer>
+
+            <div class=" border-b-2 border-gray-600 mb-0"></div>
+        
+          <footer class="bg-blue-350 py-20 px-28">
+            <div class="container mx-auto flex justify-between px-4">
+            <div class="w-1/2">
+            <h3 class="text-white text-2xl font-bold mb-4">© 2024 Tracify. All rights reserved.</h3>
+            </div>
+            <div class="w-1/2">
+            <div class="flex flex-row mt-4 float-end">
+            <p class="text-white mr-4">Terms</p>
+            <p class="text-white mr-4">Privacy</p>
+            <p class="text-white mr-4">Cookies</p>
+            </div>
+            </div>
+            </div>
+            </footer>
+
+    <!-- This section is only to be worked on by Abubakar -->
+    <section>
+    </section>
 
     <script type="module" src="/main.js"></script>
     <script src="flowbite/dist/flowbite.min.js"></script>
-    <script src="https://kit.fontawesome.com/a2d219dfac.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/a2d219dfac.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
