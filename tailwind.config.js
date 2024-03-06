@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize:{
+        xs: ['12px'],
+      },
       colors: {
         // blue: {
         //   250: '#00AFEF'
