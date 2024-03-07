@@ -37,7 +37,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },      
       animation: {
-        fade: 'fadeIn 2s ease-in forwards',
+        fade: 'fadeIn .5s ease-in forwards',
         slideIn: 'slideIn 2s ease-in backwards',
         slideOut: 'slideOut 2s ease-out forwards',
         slideOut2: 'slideOut 3s ease-out forwards',
